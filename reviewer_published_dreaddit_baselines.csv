@@ -1,0 +1,6 @@
+model,precision,recall,f1,origin,test_protocol
+Majority baseline,0.5161,1.0,0.6808,"Turcan and McKeown (2019), Table 6; published reference",Published original protocol; not re-trained here
+n-gram baseline,0.7249,0.7642,0.7441,"Turcan and McKeown (2019), Table 6; published reference",Published original protocol; not re-trained here
+n-grams + features,0.7474,0.794,0.77,"Turcan and McKeown (2019), Table 6; published reference",Published original protocol; not re-trained here
+LogReg + domain Word2Vec + features,0.7433,0.832,0.798,"Turcan and McKeown (2019), Table 6; published reference",Published original protocol; not re-trained here
+BERT-base,0.7518,0.8699,0.8065,"Turcan and McKeown (2019), Table 6; published reference",Published original protocol; not re-trained here

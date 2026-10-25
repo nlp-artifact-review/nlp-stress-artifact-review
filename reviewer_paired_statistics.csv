@@ -1,0 +1,7 @@
+backbone,metric,n_paired_seeds,mean_lora_minus_full,95pct_seed_bootstrap_low,95pct_seed_bootstrap_high,unadjusted_exact_two_sided_p,holm_adjusted_p,interpretation
+MPNet,test_f1,10,0.025561090066203197,0.019217493837550944,0.032557543684658276,0.001953125,0.01171875,Difference detected in this paired-seed experiment
+MPNet,test_roc_auc,10,0.018439932954242934,0.010042765167536214,0.02929328798345805,0.001953125,0.01171875,Difference detected in this paired-seed experiment
+DistilBERT,test_f1,10,0.005158715869418129,-0.0012727652840444192,0.011955176003747852,0.19140625,0.3828125,Not statistically resolved; NOT proof of equivalence
+DistilBERT,test_roc_auc,10,0.005723953193289111,0.0030636327678305805,0.008426245750896733,0.00390625,0.015625,Difference detected in this paired-seed experiment
+MiniLM,test_f1,10,-0.0034921950695916415,-0.0102036865085111,0.0017741624791591897,0.3515625,0.3828125,Not statistically resolved; NOT proof of equivalence
+MiniLM,test_roc_auc,10,0.006236195309930026,0.0013683091310682696,0.013724799097702033,0.021484375,0.064453125,Not statistically resolved; NOT proof of equivalence

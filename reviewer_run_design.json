@@ -1,0 +1,45 @@
+{
+  "backbones": [
+    "MPNet",
+    "DistilBERT",
+    "MiniLM"
+  ],
+  "methods": [
+    "full_fine_tuning",
+    "LoRA-large"
+  ],
+  "learning_rates": {
+    "full_fine_tuning": [
+      1e-05,
+      2e-05,
+      5e-05
+    ],
+    "LoRA-large": [
+      0.0001,
+      0.0002,
+      0.0005
+    ]
+  },
+  "seeds": [
+    42,
+    123,
+    2026,
+    7,
+    13,
+    101,
+    202,
+    404,
+    777,
+    1729
+  ],
+  "epochs_max": 5,
+  "effective_batch": 8,
+  "actual_batch": 8,
+  "grad_accumulation": 1,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "max_length": 256,
+  "train_text_hash": "36bb69a421975a415837a43534bee799612d44365141e021cb29ad7a8d549454",
+  "validation_text_hash": "e865a4a141fc6f5e27d5258db62c8da06df86cb92557151dc9ff6abf2cb26f3f",
+  "test_text_hash": "91a3901a030a7619cc9b9616c814d4c70b918eb66fee6049d5aff96ba8f2f92c"
+}
